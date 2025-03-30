@@ -4,9 +4,11 @@
     "source"  : "https://github.com/BrandonHarrisonCode/RCE",
 
     "build" : {
-        "path"      : "/",
-        "compilers" : ["cargo build --release"],
-        "systems"   : ["Windows", "Linux"]
+"build" : {
+        "path"      : "",
+        "compilers" : ["cargo>=1.70.0"],
+        "cpuflags"  : [],
+        "systems"   : ["Linux", "Windows", "Darwin"]
     },
 
     "test_presets" : {
