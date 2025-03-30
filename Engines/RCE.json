@@ -4,7 +4,6 @@
     "source"  : "https://github.com/BrandonHarrisonCode/RCE",
 
     "build" : {
-"build" : {
         "path"      : "",
         "compilers" : ["cargo>=1.70.0"],
         "cpuflags"  : [],
