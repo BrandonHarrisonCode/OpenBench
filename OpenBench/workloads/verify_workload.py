@@ -425,6 +425,8 @@ def collect_github_info(errors, request, field):
         # Actual branches have to go one layer deeper
         elif not bysha: data = data['commit']
 
+        if isinstance(data, list):
+            data = data[0]
         # Check that all the data we need going forward is present
         assert 'message' in data['commit'] and 'sha' in data
         assert private or 'sha' in data['commit']['tree']
