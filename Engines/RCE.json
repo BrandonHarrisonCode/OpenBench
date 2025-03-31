@@ -1,6 +1,6 @@
 {
     "private" : false,
-    "nps"     : 760000,
+    "nps"     : 100000,
     "source"  : "https://github.com/BrandonHarrisonCode/RCE",
 
     "build" : {
